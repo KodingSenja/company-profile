@@ -1,0 +1,20 @@
+@extends('layouts.master')
+
+@section('title', 'blog')
+
+@section('content')
+    @include('pages.landing.sections.hero')
+    @include('pages.landing.sections.about')
+    @include('pages.landing.sections.services')
+    @include('pages.landing.sections.why-us')
+    @include('pages.landing.sections.work-process')
+    @include('pages.landing.sections.portfolio')
+    @include('pages.landing.sections.pricing')
+    @include('pages.landing.sections.team')
+    @include('pages.landing.sections.testimonials')
+    @include('pages.landing.sections.clients')
+    @include('pages.landing.sections.faq')
+    @include('pages.landing.sections.subscribe')
+    @include('pages.landing.sections.call-action')
+    @include('pages.landing.sections.contact')
+@endsection
